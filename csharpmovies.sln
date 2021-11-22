@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "csharpmovies", "csharpmovies.csproj", "{0312D624-C89C-4AD6-B422-F35383F91F21}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -10,5 +12,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0312D624-C89C-4AD6-B422-F35383F91F21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0312D624-C89C-4AD6-B422-F35383F91F21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0312D624-C89C-4AD6-B422-F35383F91F21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0312D624-C89C-4AD6-B422-F35383F91F21}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
